@@ -19,12 +19,34 @@ It is designed to be easy to self-host and publish as an independent open-source
 
 ## Quick Start
 
+**Linux/macOS:**
+
 ```bash
 cd responses-chat-proxy
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 cp .env.example .env
+```
+
+**Windows Command Prompt:**
+
+```cmd
+cd responses-chat-proxy
+python -m venv .venv
+.venv\Scripts\activate
+pip install -e .
+copy .env.example .env
+```
+
+**Windows PowerShell:**
+
+```powershell
+cd responses-chat-proxy
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -e .
+Copy-Item .env.example .env
 ```
 
 Edit `.env`:
@@ -149,6 +171,8 @@ MIT License. See [LICENSE](LICENSE).
 
 ## 快速开始
 
+**Linux/macOS:**
+
 ```bash
 cd responses-chat-proxy
 python -m venv .venv
@@ -157,7 +181,17 @@ pip install -e .
 cp .env.example .env
 ```
 
-Windows PowerShell:
+**Windows 命令提示符 (Command Prompt):**
+
+```cmd
+cd responses-chat-proxy
+python -m venv .venv
+.venv\Scripts\activate
+pip install -e .
+copy .env.example .env
+```
+
+**Windows PowerShell:**
 
 ```powershell
 cd responses-chat-proxy
